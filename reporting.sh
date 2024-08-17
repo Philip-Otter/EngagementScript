@@ -24,7 +24,7 @@ mkdir ~/Desktop/$input/Exploit/Payload/Templates
 mkdir ~/Desktop/$input/Exploit/Tools
 
 # Copy supporting files
-cp -r "./Supporting Files/Payloads/Web Shells" ~/Desktop/$input/Exploit/Payload/Templates/WebShells
+cp -r "./Supporting Files/Payloads/" ~/Desktop/$input/Exploit/Payload/Templates/
 
 echo Folders created!
 echo HAPPY HACKING!
