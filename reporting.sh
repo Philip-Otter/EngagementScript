@@ -26,5 +26,8 @@ mkdir ~/Desktop/$input/Exploit/Tools
 # Copy supporting files
 cp -r "./Supporting Files/Payloads/" ~/Desktop/$input/Exploit/Payload/Templates/
 
+# Make CLI Logging Folder
+mkdir ~/Desktop/$input/Logging
+
 echo Folders created!
 echo HAPPY HACKING!
